@@ -47,7 +47,7 @@ fastify.get('/stats', async () => {
 
 fastify.get('/health', async () => {
     return {
-        status: 'ok, man?',
+        status: 'ok?',
         time: new Date().toISOString(),
     }
 })
