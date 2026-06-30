@@ -45,4 +45,11 @@ fastify.get('/stats', async () => {
     return row
 })
 
+fastify.get('/health', async () => {
+    return {
+        status: 'ok',
+        time: new Date().toISOString(),
+    }
+})
+
 fastify.listen({ port: 3000, host: '0.0.0.0' })
