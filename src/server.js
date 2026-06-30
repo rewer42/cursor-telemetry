@@ -44,7 +44,7 @@ fastify.get('/stats', async () => {
 
     return row
 })
-// Z
+
 fastify.get('/health', async () => {
     return {
         status: 'ok',
