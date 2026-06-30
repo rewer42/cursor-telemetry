@@ -1,0 +1,24 @@
+{
+  "name": "cursor-telemetry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewer42/cursor-telemetry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rewer42/cursor-telemetry/issues"
+  },
+  "homepage": "https://github.com/rewer42/cursor-telemetry#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "fastify": "^5.9.0"
+  }
+}
